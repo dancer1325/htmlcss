@@ -97,9 +97,14 @@
             </section>
 
             <section>
-                <h2>Mailing Address</h2>
+                <!-- https://html.spec.whatwg.org/#content-models
+                inter-element whitespace := Several whitespaces. They are ignored by the user agent -->
+                <h2>Mailing         Address</h2>
                 <address>
+                    <!-- https://html.spec.whatwg.org/#the-br-element  -->
                     111 Main St.<br />
+                    <!-- Freedom to use / or not for br element -->
+                    <!-- 111 Main St.<br>-->
                     Somewhere, NY 33333
                 </address>
             </section>
