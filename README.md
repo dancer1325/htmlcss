@@ -6,3 +6,10 @@ This repository is contains the code used in my course "Understanding HTML and C
 * Structure
   * It's split in modules
     * Each module has got 'Begin' and 'Finished' folders, to identify the results after the module
+
+* IDE
+  * VSC
+    * Extensions
+      * Download 'Open with Live Server'
+      * It allows launching to see HTML documents visually
+        * Right click on a HTML document
