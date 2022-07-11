@@ -124,9 +124,17 @@
 
             <section id="contactme">
                 <h2>Contact Me</h2>
-                <form action="dosomething.html">
+                <!-- https://html.spec.whatwg.org/#the-form-element
+                action      One of the attributes to submit the form, sending all the key value pairs introduced-->
+                <form action="dosomething.html" >
+                    <!-- https://html.spec.whatwg.org/#the-label-element
+                     for        Attribute to associate the label with form control/field -->
                     <label for="name">Your Name</label>
+                    <!-- https://html.spec.whatwg.org/#the-input-element
+                     type       Attribute to specify the type of input element
+                     name       Attribute to name the element to use for form submission in the form.elements API. The user agent stores forms and remember if some input with same name has been filled one -->
                     <input type="text" id="name" name="name" />
+
                     <label for="email">Your Email</label>
                     <input type="email" id="email" name="email" />
                 </form>
