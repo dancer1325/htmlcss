@@ -144,10 +144,15 @@
                         <label for="comments">Comments</label>
                         <textarea id="comments" name="comments" rows="3"></textarea>
                     </p>
+                    <!-- https://html.spec.whatwg.org/#the-fieldset-element
+                    Group together a set of form controls / fields-->
                     <fieldset>
                         <legend>Best Contact Time</legend>
                         <p>
                             <label for="contacttime1">Morning</label>
+                            <!-- https://html.spec.whatwg.org/#radio-button-state-(type=radio)
+                             name       Attribute which should be the same for all the inputs in the radio button group
+                             id         Unique value -->
                             <input type="radio" id="contacttime1" name="contacttime" value="morning" />
                         </p>
                         <p>
@@ -160,6 +165,8 @@
                         </p>
                         <p>
                             <label for="asap">ASAP</label>
+                            <!-- https://html.spec.whatwg.org/#checkbox-state-(type=checkbox)
+                             -->
                             <input type="checkbox" id="asap" name="asap" />
                         </p>
                     </fieldset>
