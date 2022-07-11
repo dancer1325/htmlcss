@@ -125,6 +125,8 @@
             <section id="contactme">
                 <h2>Contact Me</h2>
                 <form action="dosomething.html" method="POST">
+                    <!-- https://html.spec.whatwg.org/#writing-a-form's-user-interface
+                    Each part of a form is considered a paragraph  -- typically separated, using p elements -->
                     <p>
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" required />
@@ -135,6 +137,8 @@
                     </p>
                     <p>
                         <label for="whycontacting">Why Contacting</label>
+                        <!-- https://html.spec.whatwg.org/#the-select-element
+                         Control for selecting amongst a set of options-->
                         <select id="whycontacting" name="whycontacting">
                             <option value="jobinterview">Job Interview</option>
                             <option value="needcontractor">Need Contractor</option>
@@ -142,6 +146,8 @@
                     </p>
                     <p>
                         <label for="comments">Comments</label>
+                        <!-- https://html.spec.whatwg.org/#the-textarea-element
+                          Multiline plain text edit control for the element's raw value -->
                         <textarea id="comments" name="comments" rows="3"></textarea>
                     </p>
                     <button type="submit">Send</button>
